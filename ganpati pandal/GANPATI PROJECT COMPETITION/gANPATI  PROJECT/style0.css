@@ -1,0 +1,86 @@
+
+
+html{
+  
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    color: beige;
+    animation-name: anim1;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+
+@keyframes anim1{
+    0%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground5.jpg);}
+    13%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground4.jpg);}
+    27%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground3.jpg);}
+    40%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground2.jpg);}
+    53%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground.jpg);}
+    64%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground6.jpg);}
+    77%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground7.jpg);}
+    90%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground8.jpg);}
+    100%{ background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(fullbackground9.jpg);}
+}
+
+.div1{
+    width: 100vw;
+    height: 70px;
+    background-color:rgba(0,0,0,0.3);
+    padding-top: 20px;
+    margin-top: -10px;
+    margin-left: -8px;
+    padding-left: 10px;
+    align-content: center;
+}
+
+.div1items{
+    list-style: none;
+    display: flex;
+  float: right;
+
+}
+
+
+
+.l1{
+  display: block;
+  margin-right: 100px;
+  font-size: large;
+  text-align: center;
+  cursor: pointer;
+  
+    
+}
+.l1:hover{
+    background-color: steelblue;
+    border-radius: 2cm;
+    width: 80px;
+}
+
+.sec1{
+    text-align: center;
+}
+
+
+.span1:after{
+    animation-name: myspan;
+    animation-duration: 10s;
+    content: '';
+    animation-iteration-count: infinite;
+    color:darkorange;
+     font-size: 60px;
+
+}
+
+@keyframes myspan{
+       0%{content: "Aum Ekadantaya Viddhamahe, Vakratundaya Dhimahi,Tanno Danti Prachodayat॥";color: darkorange;}
+       25%{content:" Om Vighnanashaya Namah।";color: rgb(192, 137, 70);}
+       50%{content:"Om Ganesh Rinnam Chhindhi Varenyam Hoong Namaah Phutt";color: rgb(219, 214, 207);}
+       75%{content:"Om Shreem Hreem Kleem Glaum Gam Ganapataye Vara Varad Sarvajan " ;color: rgb(21, 209, 30);}
+       100%{content: "Vakratunda Maha-Kaaya Surya-Kotti Samaprabha ||";color: rgb(13, 131, 23);}
+}
+
+

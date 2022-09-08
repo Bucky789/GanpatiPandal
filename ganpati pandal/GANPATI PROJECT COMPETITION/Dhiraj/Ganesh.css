@@ -1,0 +1,135 @@
+/*nav bar*/
+nav ul{
+    list-style: none;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    border-radius: 15px;
+}
+nav ul li{
+    padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+  min-width: 80px;
+  margin: auto;
+  border-radius: 15px;
+}
+nav ul li:hover{
+    background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+  font-weight: bold;
+  background-image: url('https://scottyzen.sirv.com/Images/v/button.png'); 
+}
+li:active {
+    transform: translateY(4px);
+  }
+  
+@keyframes spring {
+    15% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1, 1);
+    }
+  }
+  /*Names*/
+  .Names{
+    position:relative;
+    width: 100%;
+  }
+  html{
+  
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    color:cornsilk;
+    background-image: url("1.jpg");
+}
+
+.sec1{
+  text-align: center;
+}
+
+.Span::after{
+  
+  background-repeat: no-repeat;
+ content: ' ';
+  animation-name: myspan;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  font-size: 60px;
+}
+
+
+
+  @keyframes myspan{
+    0%{content: "Name: Sumukha";}
+    5%{content: "Name: Ganadhisha";}
+    10%{content: "Name: Umaputra";}
+    15%{content: "Name: Gajamukha";}
+    20%{content: "Name: Lambodara";}
+    25%{content: "Name: Harasuna";}
+    30%{content: "Name: Shurpakarna";}
+    35%{content: "Name: Vakratunda";}
+    40%{content: "Name: Guhagraja";}
+    45%{content: "Name: Ekadanta";}
+    50%{content: "Name: Heramba";}
+    55%{content: "Name: Chaturhotra";}
+    60%{content: "Name: Sarveshwara";}
+    65%{content: "Name: Vikata";}
+    70%{content: "Name: Hematunda";}
+    75%{content: "Name: Vinayaka";}
+    80%{content: "Name: Kapila";}
+    85%{content: "Name: Vatave";}
+    90%{content: "Name: Bhalachandra";}
+    95%{content: "Name: Suragraja";}
+    100%{content: "Name: Siddhi Vinayaka";}
+  }
+
+  .Span1::after{
+  padding-top: 20px;
+    background-repeat: no-repeat;
+   content: ' ';
+    animation-name: myspan1;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    font-size: 60px;
+  }
+ 
+  @keyframes myspan1{
+    0%{content: "Meaning: Sumukha refers to the one with a beautiful face.";}
+    5%{content: "Meaning: Ganadhisha refers to lord of guards of Lord Shiva.";}
+    10%{content: "Meaning: Umaputra refers to the son of Goddess Uma.";}
+    15%{content: "Meaning: Gajamukha refers to the one with an elephant face.";}
+    20%{content: "Meaning: Lambodara refers to the one with a huge belly or appetite.";}
+    25%{content: "Meaning: Harasuna";}
+    30%{content: "Meaning: Shurpakarna refers to the one with huge ears.";}
+    35%{content: "Meaning: Vakratunda refers to the one with a curved mouth.";}
+    40%{content: "Meaning: Guhagraja refers to the one with a heavy voice.";}
+    45%{content: "Meaning: Ekadanta refers to the one with a single teeth.";}
+    50%{content: "Meaning: Heramba refers to the one loved by mother.";}
+    55%{content: "Meaning: Chaturhotra refers to the one with four hands.";}
+    60%{content: "Meaning: Sarveshwara refers to the lord of the entire universe.";}
+    65%{content: "Meaning: Vikata refers to the powerful one.";}
+    70%{content: "Meaning: Hematunda refers to the one staying in the Himalayas.";}
+    75%{content: "Meaning: Vinayaka refers to the one with an ability to lead well.";}
+    80%{content: "Meaning: Kapila refers to the one who is golden in colour.";}
+    85%{content: "Meaning: Vatave";}
+    90%{content: "Meaning: Bhalachandra refers to the one who is moon crested.";}
+    95%{content: "Meaning: Suragraja refers to the lord of entire heaven.";}
+    100%{content: "Meaning: Siddhi Vinayaka refers to the bestower of success.";}
+  }

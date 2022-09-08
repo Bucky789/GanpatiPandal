@@ -1,0 +1,151 @@
+Macrium Reflect Boot Log
+------------------------
+
+Started 8/11/2022 5:51 PM  v7.3.5925
+
+INF: Enumerating devices - Class: [Network, USB Controller, SCSI Adapter, HDC] Enum: [ACPI, PCI, NUSB3, SCSI]  + Any Error Devices
+INF: Got 77 total devices, 10 matching search parameters
+INF: -- Device List ---------------------------------------
+INF:   Count: 10
+INF: Instance ID    : HDAUDIO\FUNC_01&VEN_8086&DEV_2807&SUBSYS_80860101&REV_1000\4&14B47729&0&0001
+INF: Manufacturer   : Microsoft
+INF: Description    : High Definition Audio Device
+INF: Friendly Name  : 
+INF: Install Status : Installed
+INF: Device Status  : DN_HAS_PROBLEM | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : CM_PROB_FAILED_START
+INF: Enumerator     : HDAUDIO
+INF: Class Name     : MEDIA
+INF: Class GUID     : {4D36E96C-E325-11CE-BFC1-08002BE10318}
+INF: INF Path       : hdaudio.inf
+INF: INF Version    : 10.0.19041.1
+INF: INF Date       : 12/6/2019
+INF: ------------------------------
+INF: Instance ID    : PCI\VEN_8086&DEV_153A&SUBSYS_05A41028&REV_04\3&11583659&0&C8
+INF: Manufacturer   : Intel
+INF: Description    : Intel(R) Ethernet Connection I217-LM
+INF: Friendly Name  : Intel(R) Ethernet Connection I217-LM
+INF: Install Status : Installed
+INF: Device Status  : DN_DRIVER_LOADED | DN_STARTED | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : None
+INF: Enumerator     : PCI
+INF: Class Name     : Net
+INF: Class GUID     : {4D36E972-E325-11CE-BFC1-08002BE10318}
+INF: INF Path       : oem30.inf
+INF: INF Version    : 12.18.9.23
+INF: INF Date       : 4/20/2020
+INF: ------------------------------
+INF: Instance ID    : PCI\VEN_8086&DEV_8C02&SUBSYS_05A51028&REV_04\3&11583659&0&FA
+INF: Manufacturer   : Intel Corporation
+INF: Description    : Intel(R) C220 series chipset SATA AHCI Controller
+INF: Friendly Name  : 
+INF: Install Status : Installed
+INF: Device Status  : DN_DRIVER_LOADED | DN_STARTED | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : None
+INF: Enumerator     : PCI
+INF: Class Name     : SCSIAdapter
+INF: Class GUID     : {4D36E97B-E325-11CE-BFC1-08002BE10318}
+INF: INF Path       : oem54.inf
+INF: INF Version    : 6.2.2.1006
+INF: INF Date       : 12/19/2019
+INF: ------------------------------
+INF: Instance ID    : PCI\VEN_8086&DEV_8C22&SUBSYS_05A51028&REV_04\3&11583659&0&FB
+INF: Manufacturer   : 
+INF: Description    : SM Bus Controller
+INF: Friendly Name  : 
+INF: Install Status : Failed Install
+INF: Device Status  : DN_HAS_PROBLEM | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : CM_PROB_FAILED_INSTALL
+INF: Enumerator     : PCI
+INF: Class Name     : 
+INF: Class GUID     : {00000000-0000-0000-0000-000000000000}
+INF: INF Path       : 
+INF: INF Version    : 
+INF: INF Date       : 
+INF: ------------------------------
+INF: Instance ID    : PCI\VEN_8086&DEV_8C26&SUBSYS_05A51028&REV_04\3&11583659&0&E8
+INF: Manufacturer   : Intel
+INF: Description    : Intel(R) 8 Series/C220 Series USB EHCI #1 - 8C26
+INF: Friendly Name  : 
+INF: Install Status : Installed
+INF: Device Status  : DN_DRIVER_LOADED | DN_STARTED | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : None
+INF: Enumerator     : PCI
+INF: Class Name     : USB
+INF: Class GUID     : {36FC9E60-C465-11CF-8056-444553540000}
+INF: INF Path       : usbport.inf
+INF: INF Version    : 10.0.19041.1
+INF: INF Date       : 6/21/2006
+INF: ------------------------------
+INF: Instance ID    : PCI\VEN_8086&DEV_8C2D&SUBSYS_05A51028&REV_04\3&11583659&0&D0
+INF: Manufacturer   : Intel
+INF: Description    : Intel(R) 8 Series/C220 Series USB EHCI #2 - 8C2D
+INF: Friendly Name  : 
+INF: Install Status : Installed
+INF: Device Status  : DN_DRIVER_LOADED | DN_STARTED | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : None
+INF: Enumerator     : PCI
+INF: Class Name     : USB
+INF: Class GUID     : {36FC9E60-C465-11CF-8056-444553540000}
+INF: INF Path       : usbport.inf
+INF: INF Version    : 10.0.19041.1
+INF: INF Date       : 6/21/2006
+INF: ------------------------------
+INF: Instance ID    : PCI\VEN_8086&DEV_8C31&SUBSYS_05A51028&REV_04\3&11583659&0&A0
+INF: Manufacturer   : Generic USB xHCI Host Controller
+INF: Description    : USB xHCI Compliant Host Controller
+INF: Friendly Name  : Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+INF: Install Status : Installed
+INF: Device Status  : DN_DRIVER_LOADED | DN_STARTED | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : None
+INF: Enumerator     : PCI
+INF: Class Name     : USB
+INF: Class GUID     : {36FC9E60-C465-11CF-8056-444553540000}
+INF: INF Path       : usbxhci.inf
+INF: INF Version    : 10.0.19041.1
+INF: INF Date       : 12/6/2019
+INF: ------------------------------
+INF: Instance ID    : PCI\VEN_8086&DEV_8C3A&SUBSYS_05A51028&REV_04\3&11583659&0&B0
+INF: Manufacturer   : 
+INF: Description    : PCI Simple Communications Controller
+INF: Friendly Name  : 
+INF: Install Status : Failed Install
+INF: Device Status  : DN_HAS_PROBLEM | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : CM_PROB_FAILED_INSTALL
+INF: Enumerator     : PCI
+INF: Class Name     : 
+INF: Class GUID     : {00000000-0000-0000-0000-000000000000}
+INF: INF Path       : 
+INF: INF Version    : 
+INF: INF Date       : 
+INF: ------------------------------
+INF: Instance ID    : PCI\VEN_8086&DEV_8C3D&SUBSYS_05A51028&REV_04\3&11583659&0&B3
+INF: Manufacturer   : 
+INF: Description    : PCI Serial Port
+INF: Friendly Name  : 
+INF: Install Status : Failed Install
+INF: Device Status  : DN_HAS_PROBLEM | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : CM_PROB_FAILED_INSTALL
+INF: Enumerator     : PCI
+INF: Class Name     : 
+INF: Class GUID     : {00000000-0000-0000-0000-000000000000}
+INF: INF Path       : 
+INF: INF Version    : 
+INF: INF Date       : 
+INF: ------------------------------
+INF: Instance ID    : ROOT\LEGACY_MSISCSI\0000
+INF: Manufacturer   : 
+INF: Description    : Microsoft iSCSI Initiator Service
+INF: Friendly Name  : 
+INF: Install Status : Installed
+INF: Device Status  : DN_ROOT_ENUMERATED | DN_HAS_PROBLEM | DN_DISABLEABLE | DN_NT_ENUMERATOR | DN_NT_DRIVER
+INF: Device Problem : CM_PROB_OUT_OF_MEMORY
+INF: Enumerator     : ROOT
+INF: Class Name     : LegacyDriver
+INF: Class GUID     : {8ECC055D-047F-11D1-A537-0000F8753ED1}
+INF: INF Path       : 
+INF: INF Version    : 
+INF: INF Date       : 
+INF: -- Device List End -----------------------------------
+Searching folder x:\drivers\ for drivers
+Drivers to load - 0
